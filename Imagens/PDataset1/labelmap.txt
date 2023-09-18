@@ -1,0 +1,6 @@
+# label:color_rgb:parts:actions
+background:0,0,0::
+Piano:128,0,0::
+Bola:0,128,0::
+Texto:128,128,0::
+Partitura:0,0,128::
