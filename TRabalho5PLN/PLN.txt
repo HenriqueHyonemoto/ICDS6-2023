@@ -1,0 +1,717 @@
+curl -X POST -u "apikey:m3-exn4OvkDta9MjEV7Xz3mKwBEFLdo64HO6cS8sW346" --header "Content-Type: application/json" --data '{
+"url": "https://en.wikipedia.org/wiki/DALL-E",
+"features": {
+"sentiment": {},
+"categories": {},
+"concepts": {},
+"entities": {},
+"keywords": {}
+}
+}' "{https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/179bbe8e-e87d-4222-980e-618ee284ac14}/v1/analyze?version=2022-04-07"
+{
+  "usage": {
+    "text_units": 3,
+    "text_characters": 20377,
+    "features": 5
+  },
+  "sentiment": {
+    "document": {
+      "score": 0.360983,
+      "mixed": "1",
+      "label": "positive"
+    }
+  },
+  "retrieved_url": "https://en.wikipedia.org/wiki/DALL-E",
+  "language": "en",
+  "keywords": [
+    {
+      "text": "DALL-E",
+      "relevance": 0.836811,
+      "count": 40
+    },
+    {
+      "text": "text-to-image models",
+      "relevance": 0.637486,
+      "count": 1
+    },
+    {
+      "text": "Thom Dunn writing",
+      "relevance": 0.588439,
+      "count": 1
+    },
+    {
+      "text": "original DALL-E",
+      "relevance": 0.587084,
+      "count": 2
+    },
+    {
+      "text": "AI art",
+      "relevance": 0.584506,
+      "count": 1
+    },
+    {
+      "text": "juxtaposition of AI-generated images",
+      "relevance": 0.567955,
+      "count": 1
+    },
+    {
+      "text": "digital images",
+      "relevance": 0.561058,
+      "count": 1
+    },
+    {
+      "text": "b c",
+      "relevance": 0.557925,
+      "count": 2
+    },
+    {
+      "text": "use context",
+      "relevance": 0.550478,
+      "count": 1
+    },
+    {
+      "text": "latest image model",
+      "relevance": 0.538624,
+      "count": 1
+    },
+    {
+      "text": "implementation of DALL-E",
+      "relevance": 0.535618,
+      "count": 1
+    },
+    {
+      "text": "DALL",
+      "relevance": 0.531814,
+      "count": 11
+    },
+    {
+      "text": "version of GPT-3",
+      "relevance": 0.531304,
+      "count": 1
+    },
+    {
+      "text": "OpenAI",
+      "relevance": 0.528697,
+      "count": 28
+    },
+    {
+      "text": "most appropriate outputs",
+      "relevance": 0.527859,
+      "count": 1
+    },
+    {
+      "text": "DALL-E's model",
+      "relevance": 0.526846,
+      "count": 1
+    },
+    {
+      "text": "DALL-E's output",
+      "relevance": 0.526431,
+      "count": 2
+    },
+    {
+      "text": "AI-driven image generation tools",
+      "relevance": 0.524951,
+      "count": 1
+    },
+    {
+      "text": "b Allyn",
+      "relevance": 0.524904,
+      "count": 1
+    },
+    {
+      "text": "Tom B.",
+      "relevance": 0.524227,
+      "count": 1
+    },
+    {
+      "text": "AI-generated art sparks",
+      "relevance": 0.524118,
+      "count": 1
+    },
+    {
+      "text": "realistic images",
+      "relevance": 0.524035,
+      "count": 1
+    },
+    {
+      "text": "source code",
+      "relevance": 0.52309,
+      "count": 1
+    },
+    {
+      "text": "MIT Technology Review",
+      "relevance": 0.52292,
+      "count": 2
+    },
+    {
+      "text": "OpenAI’s enterprise team",
+      "relevance": 0.522798,
+      "count": 1
+    },
+    {
+      "text": "use DALL-E",
+      "relevance": 0.522471,
+      "count": 1
+    },
+    {
+      "text": "Microsoft Edge",
+      "relevance": 0.520957,
+      "count": 1
+    },
+    {
+      "text": "Trump Nevermind babies",
+      "relevance": 0.520853,
+      "count": 2
+    },
+    {
+      "text": "software's name",
+      "relevance": 0.520318,
+      "count": 1
+    },
+    {
+      "text": "first generative pre-trained transformer",
+      "relevance": 0.52023,
+      "count": 1
+    },
+    {
+      "text": "Herbert-Voss",
+      "relevance": 0.519609,
+      "count": 1
+    },
+    {
+      "text": "OpenAI's API",
+      "relevance": 0.519091,
+      "count": 1
+    },
+    {
+      "text": "Mark Riedl",
+      "relevance": 0.518006,
+      "count": 1
+    },
+    {
+      "text": "Image Creator tool",
+      "relevance": 0.517768,
+      "count": 2
+    },
+    {
+      "text": "jina-ai",
+      "relevance": 0.517561,
+      "count": 1
+    },
+    {
+      "text": "number of images",
+      "relevance": 0.516561,
+      "count": 1
+    },
+    {
+      "text": "daikon radish",
+      "relevance": 0.516185,
+      "count": 1
+    },
+    {
+      "text": "AI model",
+      "relevance": 0.515925,
+      "count": 1
+    },
+    {
+      "text": "associate professor",
+      "relevance": 0.515656,
+      "count": 1
+    },
+    {
+      "text": "b c Coldewey",
+      "relevance": 0.515447,
+      "count": 1
+    },
+    {
+      "text": "early November",
+      "relevance": 0.515409,
+      "count": 1
+    },
+    {
+      "text": "visual reasoning ability",
+      "relevance": 0.515258,
+      "count": 1
+    },
+    {
+      "text": "Breathtaking AI tool DALL-E",
+      "relevance": 0.515257,
+      "count": 1
+    },
+    {
+      "text": "Wall Street investors",
+      "relevance": 0.514636,
+      "count": 1
+    },
+    {
+      "text": "disadvantage of prompt-based filtering",
+      "relevance": 0.514131,
+      "count": 1
+    },
+    {
+      "text": "image caption",
+      "relevance": 0.513193,
+      "count": 2
+    },
+    {
+      "text": "open-source implementations of DALL-E.",
+      "relevance": 0.513158,
+      "count": 1
+    },
+    {
+      "text": "specific prompts",
+      "relevance": 0.513127,
+      "count": 1
+    },
+    {
+      "text": "new subject",
+      "relevance": 0.512901,
+      "count": 1
+    },
+    {
+      "text": "A.I.-Generated Picture",
+      "relevance": 0.512834,
+      "count": 1
+    }
+  ],
+  "entities": [
+    {
+      "type": "Organization",
+      "text": "OpenAI",
+      "relevance": 0.950805,
+      "count": 33,
+      "confidence": 1
+    },
+    {
+      "type": "Organization",
+      "text": "DALL-E",
+      "relevance": 0.372798,
+      "count": 7,
+      "confidence": 0.939835
+    },
+    {
+      "type": "Organization",
+      "text": "DALL-E 2",
+      "relevance": 0.356476,
+      "count": 6,
+      "confidence": 0.838308
+    },
+    {
+      "type": "Person",
+      "text": "DALL-E",
+      "relevance": 0.300553,
+      "count": 7,
+      "confidence": 0.749859
+    },
+    {
+      "type": "Date",
+      "text": "January 2021",
+      "relevance": 0.214916,
+      "count": 10,
+      "confidence": 0.994083
+    },
+    {
+      "type": "Date",
+      "text": "July 2022",
+      "relevance": 0.160403,
+      "count": 6,
+      "confidence": 0.991974
+    },
+    {
+      "type": "Number",
+      "text": "2",
+      "relevance": 0.157084,
+      "count": 22,
+      "confidence": 1
+    },
+    {
+      "type": "Date",
+      "text": "Retrieved 2 March 2021",
+      "relevance": 0.144538,
+      "count": 10,
+      "confidence": 0.97635
+    },
+    {
+      "type": "Date",
+      "text": "November 2022",
+      "relevance": 0.1359,
+      "count": 3,
+      "confidence": 0.955143
+    },
+    {
+      "type": "Number",
+      "text": "20",
+      "relevance": 0.134552,
+      "count": 11,
+      "confidence": 1
+    },
+    {
+      "type": "Date",
+      "text": "Retrieved 21 September 2023",
+      "relevance": 0.128978,
+      "count": 7,
+      "confidence": 0.927375
+    },
+    {
+      "type": "Date",
+      "text": "September 2023",
+      "relevance": 0.124526,
+      "count": 3,
+      "confidence": 0.981181
+    },
+    {
+      "type": "Number",
+      "text": "3",
+      "relevance": 0.10813,
+      "count": 12,
+      "confidence": 1
+    },
+    {
+      "type": "Organization",
+      "text": "OpenAI's",
+      "relevance": 0.10721,
+      "count": 5,
+      "confidence": 0.971031
+    },
+    {
+      "type": "Organization",
+      "text": "DALL-E 2's",
+      "relevance": 0.106163,
+      "count": 2,
+      "confidence": 0.449943
+    },
+    {
+      "type": "Number",
+      "text": "1",
+      "relevance": 0.101969,
+      "count": 10,
+      "confidence": 1.0
+    },
+    {
+      "type": "Date",
+      "text": "Retrieved 6 July 2022",
+      "relevance": 0.100456,
+      "count": 3,
+      "confidence": 0.664032
+    },
+    {
+      "type": "Date",
+      "text": "June 2022",
+      "relevance": 0.097662,
+      "count": 6,
+      "confidence": 0.998818
+    },
+    {
+      "type": "Number",
+      "text": "256",
+      "relevance": 0.091546,
+      "count": 3,
+      "confidence": 0.992
+    },
+    {
+      "type": "Date",
+      "text": "Retrieved 5 January 2021",
+      "relevance": 0.088577,
+      "count": 3,
+      "confidence": 0.675934
+    },
+    {
+      "type": "Organization",
+      "text": "Microsoft",
+      "relevance": 0.082575,
+      "disambiguation": {
+        "subtype": [
+          "Company",
+          "OperatingSystemDeveloper",
+          "ProcessorManufacturer",
+          "SoftwareDeveloper",
+          "VentureFundedCompany",
+          "VideoGameDeveloper",
+          "VideoGamePublisher",
+          "ProgrammingLanguageDesigner"
+        ],
+        "name": "Microsoft",
+        "dbpedia_resource": "http://dbpedia.org/resource/Microsoft"
+      },
+      "count": 7,
+      "confidence": 1
+    },
+    {
+      "type": "Person",
+      "text": "Sutskever",
+      "relevance": 0.081696,
+      "count": 3,
+      "confidence": 0.959308
+    },
+    {
+      "type": "Date",
+      "text": "January 5, 2021",
+      "relevance": 0.076414,
+      "count": 1,
+      "confidence": 0.648188
+    },
+    {
+      "type": "Date",
+      "text": "April 6, 2022",
+      "relevance": 0.076118,
+      "count": 1,
+      "confidence": 0.548076
+    },
+    {
+      "type": "Date",
+      "text": "6] [7] On 28 September 2022",
+      "relevance": 0.073597,
+      "count": 1,
+      "confidence": 0.171515
+    },
+    {
+      "type": "Location",
+      "text": "Microsoft Edge",
+      "relevance": 0.072297,
+      "count": 1,
+      "confidence": 0.356062
+    },
+    {
+      "type": "Organization",
+      "text": "ChatGPT",
+      "relevance": 0.071386,
+      "count": 1,
+      "confidence": 0.818343
+    },
+    {
+      "type": "Organization",
+      "text": "ChatGPT Plus",
+      "relevance": 0.071333,
+      "count": 1,
+      "confidence": 0.666444
+    },
+    {
+      "type": "Organization",
+      "text": "ChatGPT Enterprise",
+      "relevance": 0.071258,
+      "count": 1,
+      "confidence": 0.855524
+    },
+    {
+      "type": "Date",
+      "text": "October 2023",
+      "relevance": 0.071151,
+      "count": 1,
+      "confidence": 0.921974
+    },
+    {
+      "type": "JobTitle",
+      "text": "Designer app",
+      "relevance": 0.070571,
+      "count": 1,
+      "confidence": 0.400555
+    },
+    {
+      "type": "Person",
+      "text": "Salvador Dalí",
+      "relevance": 0.069949,
+      "disambiguation": {
+        "subtype": [
+          "Illustrator",
+          "VisualArtist",
+          "FilmActor",
+          "FilmWriter"
+        ],
+        "name": "Salvador_Dal%C3%AD",
+        "dbpedia_resource": "http://dbpedia.org/resource/Salvador_Dal%C3%AD"
+      },
+      "count": 1,
+      "confidence": 0.407443
+    },
+    {
+      "type": "Money",
+      "text": "175 billion",
+      "relevance": 0.068867,
+      "count": 1,
+      "confidence": 0.401233
+    },
+    {
+      "type": "Organization",
+      "text": "DALL-E's",
+      "relevance": 0.068728,
+      "count": 1,
+      "confidence": 0.326694
+    },
+    {
+      "type": "Number",
+      "text": "12 billion",
+      "relevance": 0.068486,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Date",
+      "text": "Retrieved 20 July 2022",
+      "relevance": 0.067896,
+      "count": 2,
+      "confidence": 0.450471
+    },
+    {
+      "type": "Organization",
+      "text": "MIT Technology Review",
+      "relevance": 0.067515,
+      "count": 2,
+      "confidence": 0.816418
+    },
+    {
+      "type": "Number",
+      "text": "16384",
+      "relevance": 0.067331,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Organization",
+      "text": "ExtremeTech",
+      "relevance": 0.066945,
+      "count": 2,
+      "confidence": 0.671991
+    },
+    {
+      "type": "Money",
+      "text": "400 million",
+      "relevance": 0.065852,
+      "count": 1,
+      "confidence": 0.847556
+    },
+    {
+      "type": "Number",
+      "text": "32,768",
+      "relevance": 0.065179,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Number",
+      "text": "3.5 billion",
+      "relevance": 0.06417,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Date",
+      "text": "Retrieved 19 November 2022",
+      "relevance": 0.06385,
+      "count": 2,
+      "confidence": 0.501099
+    },
+    {
+      "type": "Number",
+      "text": "32",
+      "relevance": 0.063563,
+      "count": 3,
+      "confidence": 0.992
+    },
+    {
+      "type": "Person",
+      "text": "Thom Dunn",
+      "relevance": 0.062367,
+      "count": 1,
+      "confidence": 0.992668
+    },
+    {
+      "type": "Number",
+      "text": "13",
+      "relevance": 0.062283,
+      "count": 5,
+      "confidence": 0.99968
+    },
+    {
+      "type": "Date",
+      "text": "Retrieved 2 August 2022",
+      "relevance": 0.060199,
+      "count": 5,
+      "confidence": 0.82872
+    },
+    {
+      "type": "Person",
+      "text": "Mark Riedl",
+      "relevance": 0.059634,
+      "count": 1,
+      "confidence": 0.972116
+    },
+    {
+      "type": "Organization",
+      "text": "Georgia Tech School of Interactive Computing",
+      "relevance": 0.059413,
+      "disambiguation": {
+        "subtype": [
+          "University"
+        ],
+        "name": "Georgia_Institute_of_Technology_School_of_Interactive_Computing",
+        "dbpedia_resource": "http://dbpedia.org/resource/Georgia_Institute_of_Technology_School_of_Interactive_Computing"
+      },
+      "count": 1,
+      "confidence": 0.522808
+    },
+    {
+      "type": "Organization",
+      "text": "Outpainting",
+      "relevance": 0.055538,
+      "count": 1,
+      "confidence": 0.56349
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Technology",
+      "relevance": 0.977284,
+      "dbpedia_resource": "http://dbpedia.org/resource/Technology"
+    },
+    {
+      "text": "Software",
+      "relevance": 0.975607,
+      "dbpedia_resource": "http://dbpedia.org/resource/Software"
+    },
+    {
+      "text": "The New York Times",
+      "relevance": 0.964666,
+      "dbpedia_resource": "http://dbpedia.org/resource/The_New_York_Times"
+    },
+    {
+      "text": "Science",
+      "relevance": 0.960716,
+      "dbpedia_resource": "http://dbpedia.org/resource/Science"
+    },
+    {
+      "text": "Mind",
+      "relevance": 0.947335,
+      "dbpedia_resource": "http://dbpedia.org/resource/Mind"
+    },
+    {
+      "text": "Creativity",
+      "relevance": 0.903833,
+      "dbpedia_resource": "http://dbpedia.org/resource/Creativity"
+    },
+    {
+      "text": "Copyright",
+      "relevance": 0.878651,
+      "dbpedia_resource": "http://dbpedia.org/resource/Copyright"
+    },
+    {
+      "text": "Vocabulary",
+      "relevance": 0.862226,
+      "dbpedia_resource": "http://dbpedia.org/resource/Vocabulary"
+    }
+  ],
+  "categories": [
+    {
+      "score": 0.820618,
+      "label": "/technology & computing/artificial intelligence"
+    },
+    {
+      "score": 0.722202,
+      "label": "/technology & computing/computing/computer software and applications/operating systems"
+    },
+    {
+      "score": 0.673535,
+      "label": "/video gaming/mobile games"
+    }
+  ]
+
